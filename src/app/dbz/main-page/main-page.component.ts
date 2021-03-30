@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Personaje } from '../interfaces/dbz.interface';
+import { DbzModule } from '../dbz.module';
+import { DbzService } from '../services/dbz.service';
 
-interface Personaje {
-  nombre: string;
-  poder:number;
-}
+
+
+
 
 @Component({
   selector: 'app-main-page',
@@ -11,23 +13,15 @@ interface Personaje {
 })
 export class MainPageComponent  {
 
+ 
+ 
   nuevo: Personaje = {
-    nombre: 'Trucks',
-    poder:14000
+    nombre: 'Maestro Roshi',
+    poder:1000
   }
 
-  // cambiarNombre(event:any){
-  //   console.log(event.target.value);
-  // }
-
-
-  agregar( ){
-   
-
-    console.log(this.nuevo);
-  }
   
 
-
-
+  constructor(){}
+   
 }
