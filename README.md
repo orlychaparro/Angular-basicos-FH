@@ -1,3 +1,26 @@
+# Curso Angular de Cero a experto - (edición 2021). 
+
+Curso del Profesor [Fernando Herrera](https://www.fernando-herrera.com) año 2021
+
+
+## Servicio en Producción
+
+Publicado en `http://www.ngbasic.orlychaparro.com/`. 
+Shard Hosting Dreamhost.
+
+## Alumno
+
+Orlando Chaparro  `http://www.ngbasic.orlychaparro.com/`. 
+Shard Hosting Dreamhost.
+
+## Codesource
+
+[Repo Github](https://github.com/orlychaparro)
+
+[Proyecto](https://github.com/orlychaparro/Angular-basicos-FH)
+
+servidor producción Shard Hosting Dreamhost.com 
+
 # Bases
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
